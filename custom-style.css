@@ -1,0 +1,68 @@
+.main {
+  position: relative;
+  border-radius: 30px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  height: 580px;
+  width: 1000px;
+  background-color: white;
+  box-shadow: 40px 40px 30px 0px rgba(156, 92, 196, .3);
+}
+
+.main > p {
+  font-size: 2rem;
+  padding-left: 30px;
+  color: rgb(57, 63, 71);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.main > .icons {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.main > .icons img {
+  width: 1.95rem;
+  margin-bottom: -2.5px;
+}
+
+.main > .icons a {
+  padding-left: 7px;
+}
+
+.main > .icons i {
+  font-size: 2.1rem;
+}
+
+.main > .nav {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
+
+.nav > a {
+  font-family: 'Nunito', sans-serif;
+  display: inline;
+  padding-left: 50px;
+}
+
+a {
+  color: rgb(173,103,217);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body {
+  background: rgb(255,202,130);
+  background: -moz-linear-gradient(120deg, rgba(255,202,130,1) 0%, rgba(173,103,217,1) 100%);
+  background: -webkit-linear-gradient(120deg, rgba(255,202,130,1) 0%, rgba(173,103,217,1) 100%);
+  background: linear-gradient(120deg, rgba(255,202,130,1) 0%, rgba(173,103,217,1) 100%) fixed;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffca82",endColorstr="#ad67d9",GradientType=1);
+}
+
+@media only screen and (max-width: 1350px) {
+}
